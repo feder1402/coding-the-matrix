@@ -1,8 +1,8 @@
 ## Task 1
-minutes_in_week = ...
+minutes_in_week = 10080
 
 ## Task 2
-remainder_without_mod = ...
+remainder_without_mod = 25
 
 ## Task 3
 divisible_by_3 = ...

@@ -5,22 +5,22 @@ minutes_in_week = 10080
 remainder_without_mod = 25
 
 ## Task 3
-divisible_by_3 = ...
+divisible_by_3 = ((673 + 909) % 3) == 0
 
 ## Task 4
 x = -9
 y = 1/2
-statement_val = ...
+statement_val = 1.0
 
 ## Task 5
-first_five_squares = { ... for _ in {1,2,3,4,5} }
+first_five_squares = { x*x for x in {1,2,3,4,5} }
 
 ## Task 6
-first_five_pows_two = { ... for _ in {0,1,2,3,4} }
+first_five_pows_two = { 2**x for x in {0,1,2,3,4} }
 
 ## Task 7: enter in the two new sets
-X1 = { ..., ..., ... }
-Y1 = { ..., ..., ... }
+X1 = { 1, 2, 3 }
+Y1 = { 5, 7, 13 }
 
 ## Task 8: enter in the two new sets
 X2 = { ..., ..., ... }
@@ -29,12 +29,12 @@ Y2 = { ..., ..., ... }
 ## Task 9
 base = 10
 digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-three_digits_set = { ... }
+three_digits_set = { x*(base**2) + y*base + z for x in digits for y in digits for z in digits }
 
 ## Task 10
 S = {1, 2, 3, 4}
 T = {3, 4, 5, 6}
-S_intersect_T = { ... }
+S_intersect_T = { x for x in S|T if (x in S and x in T) }
 
 ## Task 11
 L_average = ... # average of: [20, 10, 15, 75]

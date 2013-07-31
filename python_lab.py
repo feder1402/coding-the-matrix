@@ -92,12 +92,12 @@ identity_dict = {x:x for x in D}
 ## Task 25
 base = 10
 digits = set(range(10))
-representation_dict = {...}
+representation_dict = {x:[(x//base**2),(x//base)%base,(x%base)] for x in range(1000)}
 
 ## Task 26
 d = {0:1000.0, 1:1200.50, 2:990}
 names = ['Larry', 'Curly', 'Moe']
-listdict2dict = { ... }
+listdict2dict = {names[x]:y for (x, y) in d.items() if names[x] != ''}
 
 ## Task 27
 def nextInts(L): return [ ... ]
